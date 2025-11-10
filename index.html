@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abi — The BIM Modeler</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Abi — The BIM Modeler</h1>
+      <p class="tagline">Building smart with BIM precision — Revit | Dynamo | Navisworks</p>
+      <a class="cta" href="#contact">Contact Me</a>
+      <a class="cta ghost" href="#resume">Download Resume</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>I'm Abi, a BIM Modeller focused on creating accurate, data-driven 3D models that translate design intent into construction-ready deliverables. I specialise in Revit modelling (LOD 300–400), clash coordination, Dynamo automation and extracting quantities & schedules for construction teams.</p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills & Tools</h2>
+      <ul class="skills-grid">
+        <li>Autodesk Revit</li>
+        <li>Dynamo</li>
+        <li>Navisworks</li>
+        <li>AutoCAD</li>
+        <li>IFC / BIM Interop</li>
+        <li>Navisworks Clash Detection</li>
+      </ul>
+    </section>
+
+    <section id="portfolio" class="card">
+      <h2>Portfolio Projects</h2>
+      <p>Below are sample thumbnails — replace them with your project images and descriptions in the <code>/assets</code> folder.</p>
+      <div class="projects-grid">
+        <article class="project">
+          <div class="thumb">Project Image</div>
+          <h3>Residential Complex — LOD 350</h3>
+          <p>Architectural & structural coordination, model federation and clash resolution.</p>
+        </article>
+        <article class="project">
+          <div class="thumb">Project Image</div>
+          <h3>Commercial Mall — 4D Coordination</h3>
+          <p>4D sequencing with Synchro + model-based quantity take-offs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="dynamo" class="card">
+      <h2>Dynamo Scripts</h2>
+      <p>Attach your .dyn files into <code>/assets/dynamo</code> and link them here. Examples included: parameter mapper, sheet auto-numbering, and room data export.</p>
+      <ul>
+        <li><a href="#" class="disabled">Parameter Mapper.dyn (placeholder)</a></li>
+        <li><a href="#" class="disabled">Sheet AutoNumber.dyn (placeholder)</a></li>
+      </ul>
+    </section>
+
+    <section id="videos" class="card">
+      <h2>Videos / Work Samples</h2>
+      <p>Embed YouTube links or add mp4 files into <code>/assets/videos</code>. Example below (replace with your link):</p>
+      <div class="video-placeholder">YouTube / Video Embed</div>
+    </section>
+
+    <section id="resume" class="card">
+      <h2>Resume</h2>
+      <p>Download my resume (replace <code>resume_placeholder.pdf</code> with your real resume file).</p>
+      <a class="cta" href="resume_placeholder.pdf" download>Download Resume (PDF)</a>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact & Social Links</h2>
+      <p>Email: <a href="mailto:abi@example.com">abi@example.com</a></p>
+      <p>LinkedIn: <a href="#" id="linkedin">Your LinkedIn</a> · GitHub: <a href="#" id="github">Your GitHub</a></p>
+
+      <h3>Quick contact</h3>
+      <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+        <label><input name="name" placeholder="Your name" required></label>
+        <label><input type="email" name="email" placeholder="Your email" required></label>
+        <label><textarea name="message" placeholder="Message" required></textarea></label>
+        <button type="submit" class="cta">Send Message</button>
+      </form>
+      <p class="note">Tip: Replace the form <code>action</code> with your Formspree or Netlify Forms endpoint to receive messages directly.</p>
+    </section>
+
+    <footer class="card footer">
+      <p>© Abi — The BIM Modeler · Built with care · Replace placeholder content with your files & links.</p>
+    </footer>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
